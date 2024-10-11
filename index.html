@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es"> 
+    <!--Cambiar lenguaje en los buscadores-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="En esta página estamos aprendiendo HTML con el profe Marcos"> 
+<!--descripción de la pagina, facilita la busqueda -->
+    <title>Mi primer sitio web Nati</title>
+ 
+<!--meta etiqueta seo-->
+<!--    <link rel="apple-touch-icon" href="IMG/icons8-viajero-48.png"> para celular-->
+
+<link rel="icon" href="IMG/icons8-viajero-48.png">    <!--para pc-->
+<link rel="stylesheet" href="estilos.css">
+</head>
+
+<body> 
+
+    <p> Hola, escribiendo mi primer documento HTML</p>
+
+    <hr>
+    <h1 id="inicio">TUTORIAL HTML </h1> <!-- solo se escribe uno por documento HTLML-->
+<ul><li><a href="index.html#Encabezados">Encabezados</a></li>
+<li><a href="index.html#etiquetas-de-textos-basicos">Etiquetas de textos básicos</a></li>
+<li><a href="index.html#etiquetas-de-texto-semanticas">Etiquetas de texto semánticas</a></li>
+<li><a href="index.html#etiquetas-de-bloque-vs-etiqueta-de-linea">Etiquetas de bloque vs etiqueta de línea</a></li>
+<li><a href="index.html#Imágenes">Imágenes</a></li>
+<li><a href="index.html#figuras">figuras</a></li>
+<li><a href="index.html#listas-ordenadas">listas ordenadas</a></li>
+<li><a href="index.html#listas-desordenadas">listas-desordenadas</a></li>
+<Li><a href="index.html#tablas">Tablas</a></Li>
+<li><a href="index.html#Enlaces">Enlaces</a></li>
+<li><a href="index.html#enlaces-especiales">Enlaces Especiales</a></li>
+<li><a href="index.html#elementos-interactivos">Elementos interacivos </a> </li>
+<li><a href="index.html#audio-y-video"> Audio y Video</a></li>
+<li> <a href="index.html#Iframes">Iframes</a></li>
+<li> <a href="index.html#Formularios">Formularios</a></li>
+<li> <a href="index.html#atributos-de-formularios">Atributos de formularios </a></li>
+</ul>
+<!--atajo para hacer un listado ul>li*(cantidad de temas)>a-->
+<hr>
+
+<h2 id="Encabezados">Encabezados</h2>
+    <h2>Encabezado de nivel 2</h2> <!--este se utiliza solo para subtitulos-->
+    <h3>Encabezado de nivel 3</h3>
+    <h4>Encabezado de nivel 4</h4>
+    <h5>Encabezado de nivel 5</h5>
+    <h6>Encabezado de nivel 6</h6> <br>
+<a href="index.html#inicio">volver al inicio</a>
+    <hr>
+
+<h2 id="etiquetas-de-textos-basicos">Etiquetas de textos básicos</h2>  
+<p> Palabras en: <b>Negrita</b>, <i>cursiva</i>, <u>subrayado</u>, e=mc <sup>2</sup>, h <sub>2</sub>0,<mark> texto resaltado</mark>, <small>letras pequeñas</small> 
+</p>
+<a href="index.html#inicio">volver al inicio</a>
+<hr>
+
+<h2 id="etiquetas-de-texto-semanticas">Etiquetas de texto semánticas</h2>
+<p>
+    <strong> Este texto es importante</strong>, <em> este texto hace enfasis</em>
+</p>
+<hr>
+<blockquote>"Sólo se que no se nada"</blockquote>
+<cite> Sócrates</cite>  
+<hr>
+
+<h2 id="etiquetas-de-salto">Etiquetas de salto</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br><br>Eius, laboriosam dicta consequatur aliquid voluptate aperiam officia alias obcaecati recusandae ducimus labore a blanditiis nulla ex adipisci voluptatibus cum soluta! Quas!</p>  <br>
+<a href="index.html#inicio">volver al inicio</a>
+<hr>
+
+<h2 id="etiquetas-de-formateo">Etiquetas de formateo</h2>
+<pre>
+<p> Tareas para hacer:
+En el curso:
+    -No faltar a clase.
+    -Repasar la teoria.
+    Practicar ejercicios.
+    En la casa: 
+    -cortar el pasto.
+    -Hacer las compras.
+    -Pagar las cuentas.
+</p>
+</pre> <br>
+<a href="index.html#inicio">volver al inicio</a>
+<hr>
+
+<p> 
+    <code> Este texto está en formato de código</code>
+</p>
+<pre>
+    <code>
+        function clearScreem () {
+            document-getElementById("Respuesta"). value = "";
+}
+    </code>
+</pre> <br>
+<a href="index.html#inicio">volver al inicio</a>
+<hr>
+
+<h2 id="etiquetas-semánticas-estructurales">Etiquetas Semánticas estructurales</h2>
+<div style="background-color: aquamarine;" > Es una etiqueta contenedora que no tiene semántica</div>
+<header>HEADER: Cabecera del un sitio web o una sección </header>
+<Main style="background-color:blueviolet ;">MAIN: Define la sección principal del documento, solo puede existir una por documento</Main>
+<Footer> FOOTER: pié de página de un sitio web o una sección</Footer>
+<nav style="background-color: beige;">NAV: Representa un menú de navegación</nav>
+<article>ARTICLE: Representa una seccion de autocontenido (que por sí sola se explica) </article>
+<aside style="background-color: gray;">ASIDE: Representa contenido complementario o secundario</aside>
+<section>SECTION: Representa una sección de contenidos genéricos. </section>
+<address style="background-color: rosybrown;">ADDRESS: Representa una dirección física
+</address> <br>
+<a href="index.html#inicio">volver al inicio</a>
+ <hr>
+
+ <h2 id="etiquetas-de-bloque-vs-etiqueta-de-linea"> Etiquetas de bloque VS Etiquetas de línea</h2>
+ <div style="background-color: cadetblue;"> La etiqueta de bloque por excelencia es la DIV</div> 
+ <span style="background-color: cornflowerblue;"> La etiqueta de línea por excelencia es la SPAN</span>
+<span> Hola, soy SPAN</span> <br>
+<a href="index.html#inicio">volver al inicio</a>
+<hr>
+
+<h2 id="Imágenes"> Imágenes</h2>
+<img src="IMG/luna1.gif" alt= "luna" width="30%">
+<img src="IMG/sol.png" alt="sol"> <br>
+<a href="index.html#inicio">volver al inicio</a>
+<hr>
+
+<h2 id="figuras">Figuras</h2>
+<figure>
+    <img src="IMG/nubes.svg" alt="nubes" width="30%" >
+<figcaption> Nubes negras</figcaption>
+</figure> <br>
+<a href="index.html#inicio">volver al inicio</a>
+<hr>
+
+<h2 id="listas-ordenadas">Listas Ordenadas</h2>
+<h3>Estaciones del año</h3>
+<ol>
+    <li> Primavera</li>
+    <li> Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+</ol>
+<ol start="6">
+    <li> Primavera</li>
+    <li> Verano</li>
+</ol>
+
+<ol reversed>
+    <li> Primavera</li>
+    <li> Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+</ol>
+
+<ol type="I">
+    <li> Primavera</li>
+    <li> Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+</ol> <br>
+<a href="index.html#inicio">volver al inicio</a>
+
+<h2 id="listas-desordenadas"> listas desordenadas</h2>
+<h3> Cosas por hacer</h3>
+<!--<ul type="circle">  circulo sin relleno-->
+<ul>
+    <li> Enviar informe 1° trimestre</li>
+    <li> terminar PPT del módulo 3</li>
+    <li> Corregir evaluaciones</li>
+    <li>Entregar trabajo final del curso de IA</li>
+</ul> <br>
+<a href="index.html#inicio">volver al inicio</a>
+<hr>
+
+<h2 id="tablas">Tablas</h2>
+<table>
+    <tr>
+        <td>PAIS</td>
+        <td>CAPITAL</td>
+        <td>CONTINENTE</td>
+    </tr>
+    <tr>
+        <td>JAPON</td>
+        <td>TOKIO</td>
+        <td>ASIA</td>
+    </tr>
+    <tr>
+        <td>FRANCIA</td>
+        <td>PARIS</td>
+        <td>EUROPA</td>
+    </tr>
+    <tr>
+        <td>CANADA</td>
+        <td>OTAWA</td>
+        <td>AMERICA</td>
+    </tr>
+</table> <br>
+<a href="index.html#inicio"> volver al inicio</a>
+<hr>
+
+<h2 id="Enlaces"> Enlaces</h2> 
+<a href="ejemplo-enlace.html"> ir al archivo nuevo</a>
+<br>
+<a href="https://www.youtube.com/" target="_blank" rel="nofollow">Visita mi sitio Web</a>
+<br>
+<h3>enlaces con imagenes</h3>
+<a href= "https://www.notion.so/es-es" target="_blank"> <img src="IMG/icons8-noción-64.png" alt="notion"></a>
+<a href="https://www.notion.so/es-es" target="_blank"> <img src="imagens.svg" alt=""></a> <!--copiado de la pag icons8 svg--> <br>
+<a href="index.html#inicio">volver al inicio</a>
+<hr>
+
+<h2 id="enlaces-especiales">Enlaces especiales</h2>
+<a href="mailto:nnsalcedo2@gmail.com">Enlace a correo electrónico</a> <br>
+<a href="tel:3834764681">Enlace a telefono</a> <br>
+<a href="https:whatsapp.com/send?phone:3834894035&text=Usuario de tu pagina web -Repaso HTML- quiere contactarse contigo" target="_blank">Enlace a whatsapp</a> <br>
+<a href="index.html#inicio"> volver al inicio</a>
+<hr>
+
+<h2 id="elementos-interactivos">Elementos interactivos</h2>
+<button onclick="alert('hiciste clic en el boton')"> Este es un botón</button> <br>
+<details>
+    <summary>Titulo del acordeón</summary>
+<article>
+    <img src="IMG/tierra.gif" alt= "tierra bailando">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et consectetur nesciunt minima totam sunt laudantium eum aspernatur nisi unde. Laudantium, doloremque ducimus ipsum aut ad sint at minima possimus facilis!</p>
+</article>
+</details> <br>
+<a href="index.html#inicio">volver al inicio</a>
+<hr>
+
+<h2 id="audio-y-video">Audio y video</h2>
+<audio src="audios y videos/Let It Be (Remastered 2009).mp3" controls>Canción de los Beatles</audio>  <br>
+<video src="audios y videos/Reacción de un cuartel de bomberos Croata durante el Mundial de Rusia 2018.mp4" controls preload="auto" poster="audios y videos/poster.jpg"></video><br>
+<a href="index.html#inicio">volver al inicio</a>
+<hr>
+
+<h2 id="Iframes">Iframes</h2>
+<iframe src="ejemplo-enlace.html" frameborder="1" width="70%"></iframe> <br>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13139.132732759157!2d-58.4372083!3d-34.5843523!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1728343576480!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FAk0K00j1ps?si=bLKu4ArlWxc0beg3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br>
+<a href="index.html#inicio"> volver al inicio</a>
+<hr>
+
+<h2 id="Formularios">Formularios</h2>
+<h3> Elementos de Formularios</h3>
+<input type="text"> <br>
+<input type="checkbox"> <br>
+<input type="radio"> <br>
+<input type="date"> <br>
+<input type="color"> <br>
+<input type="button" value="Botón"> <br>
+<input type="submit"> <br>
+<input type="reset"> <br>
+<input type="file" multiple> <br>
+<input type="hidden" name="idioma" id="es"> <br>
+<input type="email"> <br>
+<input type="number"> <br>
+<input type="tel" > <br>
+<input type="password"> <br>
+<input type="search"> <br>
+<a href="index.html#inicio"> volver al inicio</a>
+<hr>
+<h2 id="atributos-de-formularios"> Atributos de los Formularios</h2>
+<input type="text" value="marcoscielo" readonly>
+<input type="text" value="marcoscielo" disabled> <br>
+<input type="text" placeholder="Escribe tu nombre"> <br>
+
+<h3>Atributos dentro de un formulario</h3>
+<h4>Formulario Login</h4>
+<form action="https://tecnologiaeducativaargentina.blogspot.com/" target="_blank" method="post">
+    <input type="text" name="usuario"> <br>
+    <input type="password" name="contraseña">
+    <input type="submit"> <br>
+    <input type="reset">
+</form> <!--https://tecnologiaeducativaargentina.blogspot-com/?usuario=natalia&contrase%C3%B1a=12334-->
+
+<h4>Selects, Radios y Checkboxs</h4>
+<form>
+    <p>Elige tu idioma:</p>
+    <select name="idioma">
+        <option value="">Elige una opción</option>
+        <option value="es"> Español</option>
+        <option value="en">Ingles</option>
+        <option value="fr"> Francés</option>
+        <option value="it">Italiano</option>
+        <option value="pt">Portugués</option>
+    </select>
+    <input type="submit">
+    <input type="reset">
+</form>
+<form>
+<p>Elige tu lenguaje de programación favorito</p>
+<input type="radio" name="lenguaje" id="radio-js" value="js">
+<label for="radio-js">JavaScript </label>
+<input type="radio" name="lenguaje" id="radio-py" value="py">
+<label for="radio-py">Pyton</label>
+<input type="radio" name="lenguaje" id="radio-php" value="php">
+<label for="radio-php">PHP</label>
+<input type="submit">
+<input type="reset">
+</form>
+<form>
+    <p>Elige tus intereses:</p>
+    <label>
+        <input type="checkbox" name="Intereses" value="educacion"> Educación 
+    </label>
+<label>
+    <input type="checkbox" name="Intereses" value="tecnologia"> Tecnología 
+</label>
+<label>
+    <input type="checkbox" name="Intereses"> Deportes 
+</label>
+<input type="submit">
+<input type="reset">
+</form>
+<a href="formulario.html"> Formulario de contacto con html puro</a>
+<br>
+<a href="index.html#inicio"> volver al inicio</a>
+
+
+<script>
+    console.log("Hola, estamos aprendiendo HTML");
+</script>
+<script src="JS/Codigo.js"></script>
+</body>
+</html>
