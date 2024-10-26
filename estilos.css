@@ -1,11 +1,63 @@
 html {
     scroll-behavior: smooth;
 } /* DESPLAZAMIENTO GLADUAL DENTRO DE LA PAGINA*/
-h2{
-    color: blueviolet;
+.presentación{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: beige;
+    font-size: 25px;
+    color: brown;
+    padding: 10px;
+    border: blanchedalmond;
 }
-
 h1{
-    color: dodgerblue;
+    color: blue;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
 }
 
+ul {
+    display: block;
+}
+
+.formulario-contacto{
+color: navy;
+font-size: 35px;
+}
+
+.encabezados{
+    color: salmon;
+    font: size 20px; 
+    text-align: center;
+}
+
+.etiquetas-de-textos-basicos{
+    color: darkgreen;
+    font-size: 20px;
+    text-align: justify;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+.etiquetas-de-texto-semanticas{
+    color: sienna;
+    font-size: 20px;
+    text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+
+ul{
+background-color: aqua;
+}
+.ul li{
+    margin: 0 15px; 
+}
+.ul li a{
+    color: darkviolet;
+    text-decoration: none;
+    padding: 10px;
+}
